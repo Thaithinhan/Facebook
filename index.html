@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/Style.css" />
+  </head>
+  <body>
+    <div class="cover-header">
+      <div class="header header-normalscreen hide-media">
+        <div class="header-logo">
+          <div class="img-header-lo">
+            <img src="./Images/Logo.PNG" alt="logo-fb" />
+          </div>
+          <div class="finding-onfb">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Tìm kiếm trên Facebook" />
+          </div>
+        </div>
+        <ul class="ul-header ul-store">
+          <li><i class="fa-solid fa-house"></i></li>
+          <li><i class="fa-solid fa-display"></i></li>
+          <li><i class="fa-solid fa-store"></i></li>
+          <li><i class="fa-solid fa-people-group"></i></li>
+          <li class="hide-media"><i class="fa-solid fa-chess-board"></i></li>
+        </ul>
+        <ul class="ul-header ul-chat-avatar">
+          <li><i class="fa-solid fa-plus"></i></li>
+          <li class="show-notice">
+            <div class="icon-notice">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <p class="notice-number">1</p>
+          </li>
+          <li class="show-notice">
+            <div class="icon-notice">
+              <i class="fa-solid fa-bell"></i>
+            </div>
+            <p class="notice-number">1</p>
+          </li>
+          <li><img src="./Images/Avatar.jpg" alt="avatar" /></li>
+        </ul>
+      </div>
+      <div class="header header-media hide-normalscreen">
+        <div class="header-logo">
+          <p class="p-header">facebook</p>
+          <ul class="ul-header ul-chat-avatar">
+            <li>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li class="show-notice">
+              <div class="icon-notice">
+                <i class="fa-brands fa-facebook-messenger"></i>
+              </div>
+              <p class="notice-number">1</p>
+            </li>
+          </ul>
+        </div>
+        <ul class="ul-header ul-store">
+          <li><i class="fa-solid fa-house"></i></li>
+          <li><i class="fa-solid fa-display"></i></li>
+          <li><i class="fa-solid fa-store"></i></li>
+          <li class="hide-media"><i class="fa-solid fa-people-group"></i></li>
+          <li><i class="fa-solid fa-chess-board"></i></li>
+          <li class="hide-normalscreen"><i class="fa-solid fa-bell"></i></li>
+          <li class="hide-normalscreen"><i class="fa-solid fa-bars"></i></li>
+        </ul>
+      </div>
+    </div>
+    <div class="div-body container">
+      <div class="left-side">
+        <ul class="ul-left-side">
+          <li>
+            <div class="img-li-leftside">
+              <img src="./Images/Avatar.jpg" alt="avatar" />
+            </div>
+            <p>Nhan Thai</p>
+          </li>
+          <li><i class="fa-solid fa-user-group"></i> Bạn Bè</li>
+          <li><i class="fa-solid fa-display"> </i> Watch</li>
+          <li><i class="fa-solid fa-people-group"></i> Nhóm</li>
+          <li><i class="fa-solid fa-store"></i> Marketplace</li>
+          <li><i class="fa-solid fa-clock"></i> Kỷ niệm</li>
+          <li><i class="fa-solid fa-circle-arrow-down"></i> Xem thêm</li>
+        </ul>
+        <div class="shortcut-way">
+          <h4>Lối tắt của bạn</h4>
+          <ul class="ul-shortcut-way">
+            <li>
+              <div class="img-shortcutway">
+                <img src="./Images/tienlenmiennnam.PNG" alt="" />
+              </div>
+              <div>
+                <p>Tiến lên Miền Nam Cybergame</p>
+              </div>
+            </li>
+            <li>
+              <div class="img-shortcutway">
+                <img src="./Images/thietkedohoa.jpg" alt="" />
+              </div>
+              <div>
+                <p>THIẾT KẾ ĐỒ HOẠ ĐÀ NẴNG</p>
+              </div>
+            </li>
+            <li>
+              <div class="img-shortcutway">
+                <img src="./Images/Funix.jpg" alt="" />
+              </div>
+              <div>
+                <p>X-Ter - Sinh viên FUNIX</p>
+              </div>
+            </li>
+            <li>
+              <div class="img-shortcutway">
+                <img src="./Images/Chess.PNG" alt="" />
+              </div>
+              <div>
+                <p>Cờ vua</p>
+              </div>
+            </li>
+            <li>
+              <div class="img-shortcutway">
+                <img src="./Images/accountant.jpg" alt="" />
+              </div>
+              <div>
+                <p>Thư viện Kế Toán Đà Nẵng(VAF)</p>
+              </div>
+            </li>
+            <li><i class="fa-solid fa-circle-arrow-down"></i> Xem thêm</li>
+          </ul>
+        </div>
+        <div class="rules">
+          <ul class="ul-rules ul-rule-up">
+            <li class="li-nonlist">Quyền riêng tư</li>
+            <li>Điều khoản</li>
+            <li>Quảng Cáo</li>
+            <li class="li-nonlist">
+              Lựa chọn quảng cáo <i class="fa-solid fa-pizza-slice"></i>
+            </li>
+            <li>Cookie</li>
+            <li>Xem thêm</li>
+            <li>Meta &copy; 2022</li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="my-status hide-normalscreen">
+          <div class="write-status">
+            <div class="myavatar-status">
+              <img src="/Images/Avatar.jpg" alt="" />
+            </div>
+            <input type="text" placeholder="Nhan ơi, bạn đang nghĩ gì thế?" />
+          </div>
+        </div>
+        <div class="hide-normalscreen header-story">
+          <p>Tin</p>
+          <p>Reels</p>
+        </div>
+        <div class="div-story-title">
+          <ul class="ul-story">
+            <li class="li-mystory">
+              <div class="contain-plusround">
+                <div class="make-story">
+                  <div class="i-make-story">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+                <p>Tạo tin</p>
+              </div>
+            </li>
+            <li class="li-friendstory">
+              <div class="img-small-friendstory">
+                <img src="./Images/story2.jpg" alt="" />
+              </div>
+              <div class="img-big-friendsotry">
+                <img src="./Images/avatar2.jpg" alt="" />
+              </div>
+              <p>Tấn Huỳnh</p>
+            </li>
+            <li class="li-friendstory">
+              <div class="img-small-friendstory">
+                <img src="./Images/story3.jpg" alt="" />
+              </div>
+              <div class="img-big-friendsotry">
+                <img src="./Images/avatar3.jpg" alt="" />
+              </div>
+              <p>Minh Trang</p>
+            </li>
+            <li class="li-friendstory hide-media">
+              <div class="img-small-friendstory">
+                <img src="./Images/story4.jpg" alt="" />
+              </div>
+              <div class="img-big-friendsotry">
+                <img src="./Images/avatar4.jpg" alt="" />
+              </div>
+              <p>Yến Nhi</p>
+            </li>
+            <li class="li-friendstory">
+              <div class="img-small-friendstory">
+                <img src="./Images/story5.jpg" alt="" />
+              </div>
+              <div class="img-big-friendsotry">
+                <img src="./Images/avatar5.jpg" alt="" />
+              </div>
+              <p>Tường Vy</p>
+            </li>
+            <li class="li-friendstory hide-media">
+              <div class="img-small-friendstory">
+                <img src="./Images/story2.jpg" alt="" />
+              </div>
+              <div class="img-big-friendsotry">
+                <img src="./Images/avatar2.jpg" alt="" />
+              </div>
+              <p>Hoàng Sơn</p>
+            </li>
+          </ul>
+          <div class="li-plus-story hide-media">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </div>
+        </div>
+        <div class="my-status hide-media">
+          <div class="write-status">
+            <div class="myavatar-status">
+              <img src="/Images/Avatar.jpg" alt="" />
+            </div>
+            <input type="text" placeholder="Nhan ơi, bạn đang nghĩ gì thế?" />
+          </div>
+          <ul class="ul-my-status">
+            <li class="li-my-status">
+              <i class="fa-solid fa-video"></i>
+              <p>Video trực tiếp</p>
+            </li>
+            <li class="li-my-status">
+              <i class="fa-solid fa-images"></i>
+              <p>Ảnh/Video</p>
+            </li>
+            <li class="li-my-status">
+              <i class="fa-solid fa-face-grin"></i>
+              <p>Cảm xúc/Hoạt động</p>
+            </li>
+          </ul>
+        </div>
+        <div class="overflow-chatroom hide-media">
+          <div class="div-btn-chatroom">
+            <button class="btn-li-click">
+              <i class="fa-solid fa-video"></i>
+              Tạo phòng họp mặt
+            </button>
+          </div>
+          <div class="div-ul-overflow">
+            <ul class="ul-chatroom">
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar11.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar12.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar13.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar11.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar12.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar13.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar11.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar11.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar11.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar11.jpg" alt="" />
+              </li>
+              <li class="li-ava-chatroom">
+                <img src="./Images/avatar11.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="arrow-chatroom">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+          </div>
+        </div>
+        <div class="newfeed">
+          <div class="image-newfeed">
+            <div class="avatar-poster">
+              <div class="img-poster">
+                <img src="./Images/avatar14.jpg" alt="" />
+              </div>
+              <div class="name-fb">
+                <p class="name-poster">Tên Facebook</p>
+                <div class="posting-time">
+                  <p>giờ</p>
+                  <p><i class="fa-solid fa-user-group"></i></p>
+                </div>
+              </div>
+            </div>
+            <div class="post-para">
+              <p class="p-post-para">
+                Tôi về phố cổ Hội An. Một chiều đầu tháng ngập tràn nắng hanh.
+                Khách nơi xa lẫn khách gần, Cảnh quan đô hội níu chân từng
+                người.
+              </p>
+              <div class="posted-img">
+                <div class="group-posted-img group-one">
+                  <div class="img-show-one">
+                    <img src="./Images/title1.jpg" alt="" />
+                  </div>
+                  <div class="img-show-one">
+                    <img src="./Images/title2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="group-posted-img group-two">
+                  <div class="img-show-two">
+                    <img src="./Images/title3.jpg" alt="" />
+                  </div>
+                  <div class="img-show-two">
+                    <img src="./Images/title4.jpg" alt="" />
+                  </div>
+                  <div class="img-show-two">
+                    <img src="./Images/title4.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="comment">
+              <ul class="ul-comment-up">
+                <li class="li-comment-icon">
+                  <i class="fa-solid fa-thumbs-up"></i
+                  ><i class="fa-solid fa-heart"></i> Tên Facebook
+                </li>
+                <li class="number-of-cmt">số bình luận</li>
+                <li class="number-of-share">lượt chia sẻ</li>
+              </ul>
+              <ul class="ul-comment-like">
+                <li class="li-icon-like">
+                  <i class="fa-solid fa-thumbs-up"></i> Thích
+                </li>
+                <li class="li-icon-like">
+                  <i class="fa-solid fa-message"> </i> Bình luận
+                </li>
+                <li class="li-icon-like">
+                  <i class="fa-solid fa-share"></i> Chia sẻ
+                </li>
+                <li class="img-avatar-comment">
+                  <img src="./Images/Avatar.jpg" alt="" />
+                </li>
+              </ul>
+              <div class="list-comment-bottom">
+                <div class="comment-list">
+                  <div class="comment-detail">
+                    <h5>Xem bình luận trước</h5>
+                    <div class="comment-showed">
+                      <div class="div-commentor">
+                        <div class="cmt-showed-img">
+                          <img src="./Images/avatar3.jpg" alt="" />
+                        </div>
+                        <div class="poster-info">
+                          <h6>Tên Facebook</h6>
+                          <p>
+                            Chị Thu đc đi ăn cưới với mẹ tuyệt vời quá! Em chúc
+                            bác khỏe mạnh trường thọ vui cùng cháu.
+                          </p>
+                        </div>
+                      </div>
+                      <ul class="ul-feeling">
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-thumbs-up"></i> Thích
+                        </li>
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-message"> </i> Phản hồi
+                        </li>
+                        <li>Giờ</li>
+                      </ul>
+                    </div>
+                    <div class="comment-showed">
+                      <div class="div-commentor">
+                        <div class="cmt-showed-img">
+                          <img src="./Images/avatar3.jpg" alt="" />
+                        </div>
+                        <div class="poster-info">
+                          <h6>Tên Facebook</h6>
+                          <p>
+                            Chị Thu đc đi ăn cưới với mẹ tuyệt vời quá! Em chúc
+                            bác khỏe mạnh trường thọ vui cùng cháu.
+                          </p>
+                        </div>
+                      </div>
+                      <ul class="ul-feeling">
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-thumbs-up"></i> Thích
+                        </li>
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-message"> </i> Phản hồi
+                        </li>
+                        <li>Giờ</li>
+                      </ul>
+                    </div>
+                    <div class="comment-showed">
+                      <div class="div-commentor">
+                        <div class="cmt-showed-img">
+                          <img src="./Images/avatar3.jpg" alt="" />
+                        </div>
+                        <div class="poster-info">
+                          <h6>Tên Facebook</h6>
+                          <p>
+                            Chị Thu đc đi ăn cưới với mẹ tuyệt vời quá! Em chúc
+                            bác khỏe mạnh trường thọ vui cùng cháu.
+                          </p>
+                        </div>
+                      </div>
+                      <ul class="ul-feeling">
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-thumbs-up"></i> Thích
+                        </li>
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-message"> </i> Phản hồi
+                        </li>
+                        <li>Giờ</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h5 class="comment-filter">
+                    Phù hợp nhất <i class="fa-solid fa-caret-down"></i>
+                  </h5>
+                </div>
+                <div class="my-comment">
+                  <div class="img-my-comment">
+                    <img src="./Images/Avatar.jpg" alt="" />
+                  </div>
+                  <div class="my-content-comment">
+                    <div class="input-my-content">
+                      <input type="text" placeholder="Viết bình luận..." />
+                    </div>
+                    <ul class="ul-label-my-comment">
+                      <li><i class="fa-solid fa-user"></i></li>
+                      <li><i class="fa-solid fa-face-grin"></i></li>
+                      <li><i class="fa-solid fa-video"></i></li>
+                      <li><i class="fa-solid fa-gift"></i></li>
+                      <li><i class="fa-solid fa-tag"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-newfeed">
+            <!-- Video -->
+            <div class="avatar-poster">
+              <div class="img-poster">
+                <img src="./Images/avatar15.png" alt="" />
+              </div>
+              <div class="name-fb">
+                <p class="name-poster">Tên Facebook</p>
+                <div class="posting-time">
+                  <p>giờ</p>
+                  <p><i class="fa-solid fa-user-group"></i></p>
+                </div>
+              </div>
+            </div>
+            <div class="post-video">
+              <p class="p-video-para">Lạy cụ cho con ú nụ.</p>
+              <div class="posted-video">
+                <iframe
+                  src="https://www.youtube.com/embed/Z1M-F17aico"
+                  title="Meo Meo Meo Rửa Mặt Như Mèo - Nhạc Thiếu Nhi Vui Nhộn Chú Mèo Con Cho Bé Yêu - Con Mèo Vui Nhộn"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="comment">
+              <ul class="ul-comment-up">
+                <li class="li-comment-icon">
+                  <i class="fa-solid fa-thumbs-up"></i
+                  ><i class="fa-solid fa-heart"></i> Tên Facebook
+                </li>
+                <li class="number-of-cmt">số bình luận</li>
+                <li class="number-of-share">lượt chia sẻ</li>
+              </ul>
+              <ul class="ul-comment-like">
+                <li class="li-icon-like">
+                  <i class="fa-solid fa-thumbs-up"></i> Thích
+                </li>
+                <li class="li-icon-like">
+                  <i class="fa-solid fa-message"> </i> Bình luận
+                </li>
+                <li class="li-icon-like">
+                  <i class="fa-solid fa-share"></i> Chia sẻ
+                </li>
+                <li class="img-avatar-comment">
+                  <img src="./Images/Avatar.jpg" alt="" />
+                </li>
+              </ul>
+              <div class="list-comment-bottom">
+                <div class="comment-list">
+                  <div class="comment-detail">
+                    <h5>Xem bình luận trước</h5>
+                    <div class="comment-showed">
+                      <div class="div-commentor">
+                        <div class="cmt-showed-img">
+                          <img src="./Images/avatar3.jpg" alt="" />
+                        </div>
+                        <div class="poster-info">
+                          <h6>Tên Facebook</h6>
+                          <p>Nội dung bình luận</p>
+                        </div>
+                      </div>
+                      <ul class="ul-feeling">
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-thumbs-up"></i> Thích
+                        </li>
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-message"> </i> Phản hồi
+                        </li>
+                        <li>Giờ</li>
+                      </ul>
+                    </div>
+                    <div class="comment-showed">
+                      <div class="div-commentor">
+                        <div class="cmt-showed-img">
+                          <img src="./Images/avatar3.jpg" alt="" />
+                        </div>
+                        <div class="poster-info">
+                          <h6>Tên Facebook</h6>
+                          <p>Nội dung bình luận</p>
+                        </div>
+                      </div>
+                      <ul class="ul-feeling">
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-thumbs-up"></i> Thích
+                        </li>
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-message"> </i> Phản hồi
+                        </li>
+                        <li>Giờ</li>
+                      </ul>
+                    </div>
+                    <div class="comment-showed">
+                      <div class="div-commentor">
+                        <div class="cmt-showed-img">
+                          <img src="./Images/avatar3.jpg" alt="" />
+                        </div>
+                        <div class="poster-info">
+                          <h6>Tên Facebook</h6>
+                          <p>Nội dung bình luận</p>
+                        </div>
+                      </div>
+                      <ul class="ul-feeling">
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-thumbs-up"></i> Thích
+                        </li>
+                        <li class="li-feeling">
+                          <i class="fa-solid fa-message"> </i> Phản hồi
+                        </li>
+                        <li>Giờ</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h5 class="comment-filter">
+                    Phù hợp nhất <i class="fa-solid fa-caret-down"></i>
+                  </h5>
+                </div>
+                <div class="my-comment">
+                  <div class="img-my-comment">
+                    <img src="./Images/Avatar.jpg" alt="" />
+                  </div>
+                  <div class="my-content-comment">
+                    <div class="input-my-content">
+                      <input type="text" placeholder="Viết bình luận..." />
+                    </div>
+                    <ul class="ul-label-my-comment">
+                      <li><i class="fa-solid fa-user"></i></li>
+                      <li><i class="fa-solid fa-face-grin"></i></li>
+                      <li><i class="fa-solid fa-video"></i></li>
+                      <li><i class="fa-solid fa-gift"></i></li>
+                      <li><i class="fa-solid fa-tag"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="overflow-y">
+          <div class="contain-overflow">
+            <div class="top-right-side">
+              <h4>Được tài trợ</h4>
+              <div class="content-top-right">
+                <div class="detail-content-top-right">
+                  <div class="img-top-right">
+                    <img src="./Images/ads1.jpg" alt="" />
+                  </div>
+                  <div class="p-top-right"><p>FPT Software Jobs Corner</p></div>
+                </div>
+                <div class="detail-content-top-right">
+                  <div class="img-top-right">
+                    <img src="./Images/ads2.jpg" alt="" />
+                  </div>
+                  <div class="p-top-right">
+                    <p>Trang Chủ - SmartDev Careers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="middle-right-side">
+              <div class="contact-people">
+                <h4>Người liên hệ</h4>
+                <ul class="contact-people-icon">
+                  <li><i class="fa-solid fa-camera"></i></li>
+                  <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                  <li><i class="fa-solid fa-ellipsis"></i></li>
+                </ul>
+              </div>
+              <ul class="ul-avartar ul-avartar-borderbottom">
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar2.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar3.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar4.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+                <li class="li-avatar">
+                  <div class="img-li-avatar">
+                    <img src="./Images/avatar5.jpg" alt="" />
+                  </div>
+                  <p class="p-name-facebook">Tên Facebook</p>
+                </li>
+              </ul>
+              <div class="bottom-right-side">
+                <h4>Cuộc trò chuyện nhóm</h4>
+                <ul class="ul-avartar">
+                  <li class="li-avatar">
+                    <div class="img-li-avatar">
+                      <img src="./Images/avatar2.jpg" alt="" />
+                    </div>
+                    <p class="p-name-facebook">Tên Facebook</p>
+                  </li>
+                  <li class="li-avatar">
+                    <div class="img-li-avatar">
+                      <img src="./Images/avatar2.jpg" alt="" />
+                    </div>
+                    <p class="p-name-facebook">Tên Facebook</p>
+                  </li>
+                  <li class="li-avatar">
+                    <div class="img-li-avatar">
+                      <img src="./Images/avatar2.jpg" alt="" />
+                    </div>
+                    <p class="p-name-facebook">Tên Facebook</p>
+                  </li>
+                  <li class="li-avatar">
+                    <div class="make-new-groupchat">
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <p class="p-name-facebook">Tạo nhóm mới</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="make-new-message hide-media">
+      <i class="fa-solid fa-square-pen"></i>
+    </div>
+  </body>
+</html>
